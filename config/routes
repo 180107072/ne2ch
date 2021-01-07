@@ -1,0 +1,3 @@
+/ HomeR GET
+/t/#Text ThreadR GET POST
+/static StaticR Static getStatic
