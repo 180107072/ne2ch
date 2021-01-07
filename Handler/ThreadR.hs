@@ -20,6 +20,7 @@ import Yesod
 getThreadR :: Text -> Handler Html
 getThreadR name = defaultLayout [whamlet|<h1>Hello #{name}!|]
 
+--Maybe Text to Text convertion
 postThreadR name = do
   name <- lookupPostParam "name"
   title <- lookupPostParam "title"
