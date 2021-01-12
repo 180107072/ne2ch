@@ -27,14 +27,14 @@ share
   [persistLowerCase|
 Thread
     name Text
-    deriving Typeable
+    deriving Show
 ThreadContent
     title Text
     content Text
     thread_id ThreadId
-    deriving Typeable
+    deriving Show
 ThreadReplies
     reply Text
     thread_id ThreadId
-    deriving Typeable
+    deriving Show
 |]
